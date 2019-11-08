@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1158</width>
+    <height>529</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>170</y>
+      <width>831</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dcfvgbhnm,xcvbnm,.dfghjklxcvbnm,.tyhjkl;xcvbnm,.vbnm,.asdfghjmk,l.;/wertyuikol;p'123456789io0p-[=sdfghnjm,./</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1158</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuStudent_Registration">
+     <property name="title">
+      <string>Student Registration</string>
+     </property>
+     <addaction name="actionRegister_Student"/>
+     <addaction name="actionEdit_Student"/>
+     <addaction name="actionDelete_Student"/>
+    </widget>
+    <widget class="QMenu" name="menuStudent_Admission">
+     <property name="title">
+      <string>Student Admission</string>
+     </property>
+     <addaction name="actionAdmit_Student"/>
+     <addaction name="actionEdit_Admission"/>
+    </widget>
+    <addaction name="menuStudent_Registration"/>
+    <addaction name="menuStudent_Admission"/>
+   </widget>
+   <widget class="QMenu" name="menuDaily_Activities">
+    <property name="title">
+     <string>Daily Activities</string>
+    </property>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuDaily_Activities"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionRegister_Student">
+   <property name="text">
+    <string>Register Student</string>
+   </property>
+  </action>
+  <action name="actionEdit_Student">
+   <property name="text">
+    <string>Edit Student</string>
+   </property>
+  </action>
+  <action name="actionDelete_Student">
+   <property name="text">
+    <string>Delete Student</string>
+   </property>
+  </action>
+  <action name="actionAdmit_Student">
+   <property name="text">
+    <string>Admit Student</string>
+   </property>
+  </action>
+  <action name="actionEdit_Admission">
+   <property name="text">
+    <string>Edit Admission</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
