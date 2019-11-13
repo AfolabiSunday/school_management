@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1151</width>
+    <width>1166</width>
     <height>555</height>
    </rect>
   </property>
@@ -28,7 +28,7 @@
 </string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -1354,7 +1354,7 @@ background-color: rgb(113, 113, 113);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1151</width>
+     <width>1166</width>
      <height>26</height>
     </rect>
    </property>
@@ -1442,7 +1442,7 @@ background-color: rgb(113, 113, 113);</string>
   </action>
   <action name="actionEdit_Studet_Admitted">
    <property name="text">
-    <string>Edit Studet Admitted</string>
+    <string>Edit or Delete Studet Admitted</string>
    </property>
   </action>
   <action name="actionattendance">
